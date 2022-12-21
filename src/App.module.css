@@ -1,0 +1,12 @@
+.main {
+    width: 90%;
+    max-width: 46rem;
+
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+}

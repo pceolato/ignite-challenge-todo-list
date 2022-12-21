@@ -1,0 +1,72 @@
+.listCard {
+    width: 100%;
+}
+
+/* ============================Header================================== */
+.listCard header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.createdTask, .concludedTask {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.createdTask > strong {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.createdTask > div {
+    background: var(--gray-400);
+    padding: 0 10px;
+    border-radius: 999px;
+    color: var(--gray-200);
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.concludedTask > strong {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--purple);
+}
+
+.concludedTask> div {
+    background: var(--gray-400);
+    padding: 0 10px;
+    border-radius: 999px;
+    color: var(--gray-200);
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+/* ============================Cards================================== */
+
+.cards {
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    border-top: 1px solid var(--gray-400);
+
+    display: flex;
+    justify-content: center;
+}
+
+.cards div {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+
+    color: var(--gray-300);
+}
+
+.cards div img {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
