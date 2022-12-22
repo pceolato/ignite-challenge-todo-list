@@ -10,3 +10,74 @@
         font-size: 87.5%;
     }
 }
+
+/* ==============================FORM====================================== */
+
+.group {
+    width: 100%;
+
+    display: grid;
+    align-items: center;
+    grid-template-columns: 638px 1fr;
+    gap: 0.5rem;
+
+    margin-top: calc(0px - 1.5rem - 6px);
+    margin-bottom: 4rem;
+}
+
+.group input {
+    background: var(--gray-500);
+    color: var(--gray-100);
+    
+    padding: 1rem;
+    
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+
+    outline: transparent;
+}
+
+.group input:focus {
+    border: 1px solid var(--purple-dark);
+}
+
+.button button {
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    font-size: 0.875rem;
+    font-weight: 700;
+    cursor: pointer;
+
+    padding: 1rem;
+
+    border: 0;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 0.5rem;
+}
+
+.button button[type="submit"]:not(:disabled):hover {
+    background: var(--blue);
+}
+
+.button button[type="submit"]:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .group {
+        grid-template-columns: 1fr;
+    }
+
+    .button button {
+        width: 100%;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
