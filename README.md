@@ -17,5 +17,5 @@ npm run dev
 <br/>
 
 <div>
-    <img style="" src="assets/nba-players-dark.png" width="45%;" alt="Imagem do projeto versão dark"/>
+    <img style="" src="https://user-images.githubusercontent.com/88351152/209196233-b49546ec-0ccf-4c0c-91c0-c2f3b4dca8cd.png" alt="Imagem do projeto"/>
 </div>
