@@ -2,7 +2,6 @@ import styles from './ListCard.module.css';
 
 import clipboard from '../assets/Clipboard.svg';
 import { Card } from './Card';
-import { useState } from 'react';
 import { Task } from '../App';
 
 interface listCardProps {
@@ -11,8 +10,6 @@ interface listCardProps {
 }
 
 export function ListCard({tasks, setTasks}: listCardProps) {
-    const [tasksCompleted, setTasksCompleted] = useState(0)
-
     function handleCheckTask(id: number) {
         const taskMarkCheck = tasks.map(task => task.id === id ? {
             ...task,
