@@ -1,6 +1,6 @@
 # TODO
 
-## Aplicação desenvolvida para o primeiro desafio da trilha ignite-react da <a href="https://www.rocketseat.com.br">Rocketseat<a>
+## Aplicação desenvolvida para o desafio Praticando Conceitos da trilha ignite-react da <a href="https://www.rocketseat.com.br">Rocketseat<a>
 
 <br/>
 
