@@ -27,6 +27,8 @@ export function ListCard({tasks, setTasks}: listCardProps) {
         setTasks(taskWithoutId)
     }
 
+    const scoreTasks = tasks.filter(task => task.checked === true).length
+
     return (
         <div className={styles.listCard}>
             <header>
@@ -37,7 +39,7 @@ export function ListCard({tasks, setTasks}: listCardProps) {
                 <div className={styles.concludedTask}>
                     <strong>Concluídas</strong>
                     <div>
-                        {tasks.filter(task => task.checked === true).length}
+                        {scoreTasks}
                         {' de '}
                         {tasks.length}
                     </div>
